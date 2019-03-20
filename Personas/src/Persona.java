@@ -21,4 +21,36 @@ public class Persona {
      * El peso de la persona esta por encima del peso ideal
      */
     public static final int SOBREPESO = 1;
+    
+    
+  //Atributos
+    /**
+     * Nombre de la persona
+     */
+    private String nombre;
+ 
+    /**
+     * Edad de la persona
+     */
+    private int edad;
+ 
+    /**
+     * DNI de la persona, se genera al construir el objeto
+     */
+    private String DNI;
+ 
+    /**
+     * Sexo de la persona, H hombre M mujer
+     */
+    private char sexo;
+ 
+    /**
+     * Peso de la persona
+     */
+    private double peso;
+ 
+    /**
+     * Altura de la persona
+     */
+    private double altura;
 }
